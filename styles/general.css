@@ -293,10 +293,11 @@ html {
 }
 
 /* İletişim kısmı */
+/* İletişim kısmı */
 .contact-section {
   padding: 40px 30px;
   text-align: center;
-  background-color: #f7e1e1; /* Pudra rengi */
+  background-color: #f0f0f0; /* Hafif gri arka plan */
   border-radius: 12px; /* Köşeleri yuvarlattık */
   margin-top: 40px;
 }
@@ -353,4 +354,5 @@ html {
 .contact-btn:hover {
   background-color: #3700b3;
 }
+
 
