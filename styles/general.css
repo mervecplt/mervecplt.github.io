@@ -218,6 +218,7 @@ html {
 .hero-text h1 {
   font-size: 36px;
   margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3); /* Yazıya netlik ekler */
 }
 
 .hero-text h1 span {
@@ -229,6 +230,7 @@ html {
   font-size: 18px;
   line-height: 1.6;
   color: black !important;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3); /* Yazıya netlik ekler */
 }
 
 .hero-image img {
