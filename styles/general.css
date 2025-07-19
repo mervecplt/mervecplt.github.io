@@ -185,17 +185,17 @@ html {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.hero-section {
-  position: relative;
+#merve_home {
+  background: url('channel-pictures/gorsel.png') center center / cover no-repeat;
   height: 100vh;
-  background: url('../channel-pictures/gorsel.png') center center / cover no-repeat;
-
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
+  position: relative;
 }
+
 
 .overlay {
   position: absolute;
