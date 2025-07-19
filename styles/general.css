@@ -198,45 +198,44 @@ html {
   z-index: 1;
 }
 
+
+.hero {
+  background: linear-gradient(to right, #f6f6f6, #ffffff);
+  padding: 60px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 700px;
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  flex-wrap: wrap;
 }
 
-.hero-content h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.hero-content .subtitle {
-  font-size: 18px;
-  letter-spacing: 1px;
+.hero-text h1 {
+  font-size: 36px;
   margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #7e3af2; /* Morumsu ton */
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
   color: black !important;
 }
 
-.hero-content .description {
-  font-size: 16px;
-  color: black !important;
-  margin-bottom: 30px;
+.hero-image img {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
-
-.hero-btn {
-  background-color: #6200ea;
-  padding: 10px 24px;
-  color: black !important;
-  text-decoration: none;
-  border-radius: 25px;
-  transition: background 0.3s;
-}
-
-.hero-btn:hover {
-  background-color: black;
-}
-
-
 .techno-card-container {
   display: flex;
   justify-content: flex-start;  /* Kartları sola hizalar */
