@@ -100,7 +100,7 @@ html {
 .experience-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
 }
 
