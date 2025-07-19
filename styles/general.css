@@ -17,7 +17,7 @@ html {
 }
 
 .club-img {
-  width: 180px;  /* daha küçük yapabilirsin, örn: 150px */
+  width: 50px;  /* daha küçük yapabilirsin, örn: 150px */
   height: auto;
   border-radius: 8px;
 }
