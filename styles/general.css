@@ -243,6 +243,39 @@ html {
   background-color: black;
 }
 
+.techno-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.techno-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.techno-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.techno-card h3 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.techno-card p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
 
 
 
