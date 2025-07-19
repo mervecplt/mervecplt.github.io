@@ -233,12 +233,12 @@ html {
 .hero-btn {
   background-color: #6200ea;
   padding: 10px 24px;
-  color: white;
+  color: black;
   text-decoration: none;
   border-radius: 25px;
   transition: background 0.3s;
 }
 
 .hero-btn:hover {
-  background-color: #3700b3;
+  background-color: black;
 }
