@@ -253,6 +253,13 @@ html {
 .hero-btn:hover {
   background-color: #3700b3; /* Buton hover rengini değiştirir */
 }
+.description {
+  font-size: 16px;
+  color: #444; /* Siyah metin */
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
 
 
 .techno-card-container {
