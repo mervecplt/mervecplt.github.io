@@ -16,3 +16,8 @@ html {
   scroll-behavior: smooth;
 }
 
+.club-img {
+  width: 180px;  /* daha küçük yapabilirsin, örn: 150px */
+  height: auto;
+  border-radius: 8px;
+}
