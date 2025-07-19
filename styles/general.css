@@ -183,33 +183,3 @@ html {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.section-with-line {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f8f8f8;
-}
-
-.section-with-line::before {
-  content: "";
-  position: absolute;
-  width: 60%;
-  height: 40px;
-  background-color: rgba(128, 128, 128, 0.15);
-  top: 50%;
-  left: 20%;
-  transform: translateY(-50%);
-  border-radius: 8px;
-  z-index: 0;
-}
-
-.section-with-line::after {
-  content: "merve_home"; /* Yazı buradan geliyor */
-  position: relative;
-  z-index: 1;
-  font-size: 28px;
-  font-weight: bold;
-  color: black;
-}
