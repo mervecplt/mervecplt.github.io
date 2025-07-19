@@ -147,20 +147,17 @@ html {
   line-height: 1.5;
 }
 
-.hero {
-  background: linear-gradient(to right, #f6f6f6, #ffffff);
-  padding: 60px 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero-content {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  gap: 40px;
-  max-width: 1000px;
-  flex-wrap: wrap;
+  gap: 30px; /* Fotoğraf ve yazı arasındaki boşluk */
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.hero-text {
+  max-width: 600px; /* Yazının genişliğini kısıtlamak için */
 }
 
 .hero-text h1 {
@@ -168,22 +165,18 @@ html {
   margin-bottom: 20px;
 }
 
-.hero-text h1 span {
-  color: #7e3af2; /* Morumsu ton */
-  font-weight: bold;
-}
-
 .hero-text p {
   font-size: 18px;
   line-height: 1.6;
-  color: black !important;
 }
 
 .hero-image img {
-  width: 250px;
+  width: 200px; /* Fotoğrafın genişliği */
+  height: auto;
   border-radius: 50%;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
+
 
 #merve_home {
   background: url('channel-pictures/gorsel.png') center center / cover no-repeat;
