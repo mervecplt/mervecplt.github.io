@@ -236,6 +236,23 @@ html {
   border-radius: 50%;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
+.hero-btn {
+  background-color: #6200ea; /* Buton rengi */
+  padding: 12px 24px;        /* Butonun boyutu */
+  color: white;              /* Yazı rengi */
+  text-decoration: none;     /* Alt çizgi olmamalı */
+  border-radius: 25px;       /* Yuvarlak köşeler */
+  transition: background 0.3s; /* Hover efekti */
+  font-size: 16px;           /* Yazı büyüklüğü */
+  text-align: center;        /* Metni ortalar */
+  display: inline-block;     /* Butonun düzgün görünmesi için */
+}
+
+.hero-btn:hover {
+  background-color: #3700b3; /* Buton hover rengini değiştirir */
+}
+
+
 .techno-card-container {
   display: flex;
   justify-content: flex-start;  /* Kartları sola hizalar */
