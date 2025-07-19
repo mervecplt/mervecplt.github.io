@@ -57,3 +57,42 @@ html {
   color: #444;
   line-height: 1.5;
 }
+
+.club-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.club-card {
+  width: 250px;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: #fff;
+  transition: transform 0.3s;
+}
+
+.club-card:hover {
+  transform: translateY(-5px);
+}
+
+.club-card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.club-card h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.club-card p {
+  font-size: 14px;
+  padding: 0 12px 15px;
+  color: #444;
+  line-height: 1.5;
+}
