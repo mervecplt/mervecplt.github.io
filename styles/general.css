@@ -242,6 +242,8 @@ html {
 .hero-btn:hover {
   background-color: black;
 }
+
+
 .techno-card-container {
   display: flex;
   justify-content: flex-start;  /* Kartları sola hizalar */
@@ -267,8 +269,9 @@ html {
 
 .techno-card-img {
   width: 100%;
-  height: 150px;              /* Görselin boyutunu sınırlıyoruz */
-  object-fit: cover;          /* Görselin kesilmeden kapsayıcıya sığmasını sağlar */
+  max-height: 150px;           /* Fotoğrafın maksimum yüksekliğini belirleyelim */
+  height: auto;                /* Yükseklik orantılı olarak ayarlanır */
+  object-fit: cover;           /* Görselin kesilmeden sığmasını sağlar */
   border-radius: 8px;
 }
 
