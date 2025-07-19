@@ -185,37 +185,31 @@ html {
 
 .section-with-line {
   position: relative;
-  text-align: center;
-  font-size: 24px;
-  padding: 40px;
-  margin-top: 40px;
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: #f8f8f8; /* varsa zemin rengi */
+  background-color: #f8f8f8;
 }
 
 .section-with-line::before {
   content: "";
   position: absolute;
-  width: 50%;
+  width: 60%;
   height: 40px;
-  background-color: rgba(128, 128, 128, 0.1); /* şeffaf gri bant */
+  background-color: rgba(128, 128, 128, 0.15);
   top: 50%;
-  left: 25%;
+  left: 20%;
   transform: translateY(-50%);
   border-radius: 8px;
   z-index: 0;
 }
 
 .section-with-line::after {
-  content: attr(id); /* "merve_home" yazısını otomatik basar */
+  content: "merve_home"; /* Yazı buradan geliyor */
   position: relative;
   z-index: 1;
-  color: black;
+  font-size: 28px;
   font-weight: bold;
+  color: black;
 }
-
