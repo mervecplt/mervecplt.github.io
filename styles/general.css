@@ -197,7 +197,7 @@ html {
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* karartı */
+  background: rgba(0, 0, 0, 0.1); /* karartı */
   backdrop-filter: blur(4px);     /* flu efekt */
   z-index: 1;
 }
