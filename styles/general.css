@@ -246,14 +246,15 @@ html {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 48px;
-  height: 48px;
+  width: 80px;              /* Burayı büyüt → Örn: 100px, 120px */
+  height: 80px;             /* Aynısını buraya da uygula */
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  border: 2px solid white; /* isteğe bağlı kenarlık */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  border: 2px solid white;
   z-index: 100;
 }
+
 
 
 
