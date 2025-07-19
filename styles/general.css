@@ -244,8 +244,8 @@ html {
 }
 .profile-photo {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 50px;
+  right: 50px;
   width: 150px;              /* Burayı büyüt → Örn: 100px, 120px */
   height: 150px;             /* Aynısını buraya da uygula */
   border-radius: 50%;
