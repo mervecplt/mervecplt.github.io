@@ -194,7 +194,7 @@ html {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.15); /* karartı */
-  backdrop-filter: blur(2px);     /* flu efekt */
+  backdrop-filter: none;     /* flu efekt */
   z-index: 1;
 }
 
