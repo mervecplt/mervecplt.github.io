@@ -242,18 +242,7 @@ html {
 .hero-btn:hover {
   background-color: black;
 }
-.profile-photo {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  width: 150px;              /* Burayı büyüt → Örn: 100px, 120px */
-  height: 150px;             /* Aynısını buraya da uygula */
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-  border: 2px solid white;
-  z-index: 100;
-}
+
 
 
 
