@@ -186,7 +186,7 @@ html {
 .hero-section {
   position: relative;
   height: 100vh;
-  background: url("channel-pictures/background.jpg") center/cover no-repeat;
+  background: url("channel-pictures/gorsel.png") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
