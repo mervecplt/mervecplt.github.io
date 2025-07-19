@@ -221,12 +221,12 @@ html {
   font-size: 18px;
   letter-spacing: 1px;
   margin-bottom: 20px;
-  color: #ddd;
+  color: black;
 }
 
 .hero-content .description {
   font-size: 16px;
-  color: #ccc;
+  color: black;
   margin-bottom: 30px;
 }
 
