@@ -243,13 +243,6 @@ html {
   background-color: black;
 }
 
-.techno-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; /* Kartları sola hizalar */
-  gap: 20px;
-}
-
 .techno-card {
   background: #fff;
   border-radius: 12px;
