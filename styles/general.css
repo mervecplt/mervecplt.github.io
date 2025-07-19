@@ -176,7 +176,7 @@ html {
 .hero-text p {
   font-size: 18px;
   line-height: 1.6;
-  color: black;
+  color: black !important;
 }
 
 .hero-image img {
@@ -221,19 +221,19 @@ html {
   font-size: 18px;
   letter-spacing: 1px;
   margin-bottom: 20px;
-  color: black;
+  color: black !important;
 }
 
 .hero-content .description {
   font-size: 16px;
-  color: black;
+  color: black !important;
   margin-bottom: 30px;
 }
 
 .hero-btn {
   background-color: #6200ea;
   padding: 10px 24px;
-  color: black;
+  color: black !important;
   text-decoration: none;
   border-radius: 25px;
   transition: background 0.3s;
